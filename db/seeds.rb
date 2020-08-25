@@ -32,6 +32,8 @@ favorite_one = Favorite.create(user_id: user_two.id, mural_id: mural_one.id)
 
 favorite_two = Favorite.create(user_id: user_one.id, mural_id: mural_two.id)
 
+favorite_two = Favorite.create(user_id: user_one.id, mural_id: mural_one.id)
+
 
 
 
